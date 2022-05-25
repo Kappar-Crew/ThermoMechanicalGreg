@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "KAPPAR ThermoMekanical Greg",
-  "version": "working",
+  "version": "ae2",
   "author": "",
   "files": [
     {
@@ -93,6 +93,11 @@
       "projectID": 284523,
       "fileID": 3656492,
       "required": true
+    },
+    {
+      "projectID": 386188,
+      "fileID": 3407001,
+      "required": false
     },
     {
       "projectID": 395607,
@@ -230,6 +235,11 @@
       "required": true
     },
     {
+      "projectID": 570458,
+      "fileID": 3791235,
+      "required": true
+    },
+    {
       "projectID": 245549,
       "fileID": 2476626,
       "required": true
@@ -325,18 +335,18 @@
       "required": true
     },
     {
-      "projectID": 280510,
-      "fileID": 2643711,
-      "required": true
-    },
-    {
       "projectID": 227049,
       "fileID": 2564573,
       "required": true
     },
     {
-      "projectID": 69162,
-      "fileID": 2920433,
+      "projectID": 280510,
+      "fileID": 2643711,
+      "required": true
+    },
+    {
+      "projectID": 231484,
+      "fileID": 2862651,
       "required": true
     },
     {
@@ -345,8 +355,8 @@
       "required": true
     },
     {
-      "projectID": 231484,
-      "fileID": 2862651,
+      "projectID": 69162,
+      "fileID": 2920433,
       "required": true
     },
     {
@@ -420,18 +430,13 @@
       "required": true
     },
     {
-      "projectID": 270305,
-      "fileID": 2617198,
-      "required": true
-    },
-    {
       "projectID": 237065,
       "fileID": 3331364,
       "required": true
     },
     {
-      "projectID": 255902,
-      "fileID": 2661187,
+      "projectID": 270305,
+      "fileID": 2617198,
       "required": true
     },
     {
@@ -440,13 +445,18 @@
       "required": true
     },
     {
-      "projectID": 230976,
-      "fileID": 2463272,
+      "projectID": 255902,
+      "fileID": 2661187,
       "required": true
     },
     {
       "projectID": 460609,
       "fileID": 3801417,
+      "required": true
+    },
+    {
+      "projectID": 230976,
+      "fileID": 2463272,
       "required": true
     },
     {
@@ -470,13 +480,13 @@
       "required": true
     },
     {
-      "projectID": 221857,
-      "fileID": 2904825,
+      "projectID": 60089,
+      "fileID": 2671937,
       "required": true
     },
     {
-      "projectID": 60089,
-      "fileID": 2671937,
+      "projectID": 221857,
+      "fileID": 2904825,
       "required": true
     },
     {
@@ -490,13 +500,13 @@
       "required": true
     },
     {
-      "projectID": 250398,
-      "fileID": 3025548,
+      "projectID": 237102,
+      "fileID": 3157548,
       "required": true
     },
     {
-      "projectID": 237102,
-      "fileID": 3157548,
+      "projectID": 250398,
+      "fileID": 3025548,
       "required": true
     },
     {
