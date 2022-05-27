@@ -170,6 +170,5 @@ import { ModpackManifest } from "../../types/modpackManifest";
 export default gulp.series(
 	sharedCleanUp,
 	createSharedDirs,
-	copyOverrides,
 	fetchExternalDependencies,
 );
