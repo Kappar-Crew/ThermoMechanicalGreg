@@ -83,11 +83,6 @@ function copyClientChangelog() {
 /**
  * Copies modpack overrides.
  */
-function copyClientOverrides() {
-	return gulp
-		.src(buildConfig.copyFromSharedClientGlobs, { nodir: true, cwd: sharedDestDirectory, allowEmpty: true })
-		.pipe(gulp.symlink(upath.join(clientDestDirectory, "overrides")));
-}
 
 /**
  * Fetches mod links and builds modlist.html.
