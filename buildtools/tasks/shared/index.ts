@@ -172,5 +172,4 @@ export default gulp.series(
 	createSharedDirs,
 	copyOverrides,
 	fetchExternalDependencies,
-	...transforms,
 );
