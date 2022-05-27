@@ -1,3 +1,4 @@
 .cache
 *.pdf
-build
+build*
+modlist.html
