@@ -3,15 +3,9 @@
 name: Release tagged version
 
 on:
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: 'Tag to checkout and deploy'
-        required: true
-      flavorTitle:
-        description: 'Flavor title (e. g. "Community Update")'
-        required: false
-
+  push:
+    tags:
+      - '*'
 
 jobs:
   release:
