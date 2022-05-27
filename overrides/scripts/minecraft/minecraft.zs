@@ -34,3 +34,9 @@ recipes.remove(<minecraft:diamond_shovel>);
 recipes.remove(<minecraft:diamond_pickaxe>);
 recipes.remove(<minecraft:diamond_axe>);
 recipes.remove(<minecraft:diamond_hoe>);
+
+
+
+// Ingot removal
+mods.unidict.removalByKind.get("Furnace").remove("ingot", ["ore"]);
+mods.unidict.removalByKind.get("Furnace").remove("ingot", ["dust"]);
