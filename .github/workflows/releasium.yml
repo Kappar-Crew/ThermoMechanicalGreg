@@ -1,0 +1,25 @@
+name: Create Archive
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag to checkout and deploy'
+        required: true
+      flavorTitle:
+        description: 'Flavor title (e. g. "Community Update")'
+        required: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@main
+      with:
+        type: 'zip'
+        filename: 'release.zip'
+        exclusions: '*.git* /*node_modules/* .editorconfig'
+        uses: ncipollo/release-action@v1
+        artifacts: "release.zip"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        tags: "$tag"
