@@ -165,12 +165,6 @@ async function compressMainMenuImages() {
 export default gulp.series(
 	clientCleanUp,
 	createClientDirs,
-	copyClientOverrides,
 	exportModpackManifest,
-	copyClientLicense,
-	copyClientOverrides,
-	copyClientChangelog,
-	copyClientUpdateNotes,
 	fetchModList,
-	compressMainMenuImages,
 );
