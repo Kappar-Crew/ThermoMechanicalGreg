@@ -214,12 +214,7 @@ function copyServerUpdateNotes() {
 	return src("../UPDATENOTES.md", { allowEmpty: true }).pipe(dest(serverDestDirectory));
 }
 
-/**
- * Copies the changelog file.
- */
-function copyServerChangelog() {
-	return src(upath.join(sharedDestDirectory, "CHANGELOG.md")).pipe(dest(serverDestDirectory));
-}
+
 
 /**
  * Copies files from ./launchscripts into dest folder and processes them using mustache.
@@ -260,10 +255,5 @@ export default gulp.series([
 	downloadForge,
 	downloadMinecraftServer,
 	downloadMods,
-	copyServerOverrides,
 	copyServerfiles,
-	copyServerLicense,
-	copyServerChangelog,
-	copyServerUpdateNotes,
-	processLaunchscripts,
 ]);
