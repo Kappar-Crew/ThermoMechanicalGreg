@@ -1,4 +1,5 @@
 # Kappar Crew Script writing guide
+# Hey, i'm here :D
 
 ## Scripts are organized by:
 
