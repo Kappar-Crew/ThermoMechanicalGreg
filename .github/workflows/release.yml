@@ -36,7 +36,8 @@ jobs:
               -x "release/*" \
               -x "build*" \
               -x "modlist.html" \
-              -x "overrides\scripts\script_writing_guide.md"
+              -x "overrides\scripts\script_writing_guide.md" \
+              -x ".gitignore" 
 
       - name: Release under current tag
         uses: "marvinpinto/action-automatic-releases@latest"
