@@ -33,7 +33,10 @@ jobs:
               -x changelog.py \
               -x ".git/*" \
               -x ".github/*" \
-              -x "release/*"
+              -x "release/*" \
+              -x "build*" \
+              -x "modlist.html" \
+              -x "overrides\scripts\script_writing_guide.md"
 
       - name: Release under current tag
         uses: "marvinpinto/action-automatic-releases@latest"
