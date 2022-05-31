@@ -1,5 +1,13 @@
 import mods.thaumcraft.ArcaneWorkbench;
 
+// Thaumometer
+      mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
+      mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("", "", 100, 
+            [<aspect:aqua>, <aspect:ignis>, <aspect:terra>, <aspect:aer>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, 
+                  [[<ore:craftingToolScrewdriver>, <ore:plateGold>, <ore:screwAluminium>],
+                   [<ore:plateGold>, <minecraft:glass_pane>, <ore:plateGold>],
+                   [<ore:screwAluminium>, <ore:plateGold>, <ore:craftingToolHardHammer>]]);
+
 // Gauntlet
       mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:caster_basic>);
       mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("UNLOCKAUROMANCY", "", 100, 
